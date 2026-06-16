@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YBEHOUSE Production</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#0f0f0f;
+    color:white;
+    line-height:1.6;
+}
+
+header{
+    position:fixed;
+    width:100%;
+    top:0;
+    background:rgba(0,0,0,0.9);
+    padding:20px 8%;
+    z-index:1000;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+.hero{
+    height:100vh;
+    background:url('https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=1600') center/cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero-content{
+    background:rgba(0,0,0,0.6);
+    padding:40px;
+    border-radius:15px;
+}
+
+.hero h1{
+    font-size:60px;
+}
+
+.hero p{
+    margin:15px 0;
+    font-size:20px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 25px;
+    background:white;
+    color:black;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+section{
+    padding:90px 8%;
+}
+
+.section-title{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.about{
+    text-align:center;
+    max-width:900px;
+    margin:auto;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#1b1b1b;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+.portfolio{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.portfolio img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.team{
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+    justify-content:center;
+}
+
+.member{
+    text-align:center;
+}
+
+.member img{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact p{
+    margin:10px 0;
+    font-size:18px;
+}
+
+footer{
+    background:black;
+    text-align:center;
+    padding:25px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<nav>
+<div class="logo">YBEHOUSE</div>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#portfolio">Portfolio</a></li>
+<li><a href="#team">Team</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero">
+<div class="hero-content">
+<h1>YBEHOUSE Production</h1>
+<p>Stories That Stay.</p>
+<p>Content Creation • Social Media • Branding • Production</p>
+<a href="#contact" class="btn">Work With Us</a>
+</div>
+</section>
+
+<section id="about">
+<h2 class="section-title">About Us</h2>
+
+<div class="about">
+
+<!-- EDIT THIS -->
+<p>
+YBEHOUSE Production is a creative production house specializing in
+social media content, professional videography, photography,
+branding, advertising campaigns, reels production and digital storytelling.
+
+Founded by Jatin and Nakul, we help brands turn ideas into impactful
+visual experiences that connect with audiences and drive growth.
+</p>
+
+</div>
+</section>
+
+<section id="services">
+<h2 class="section-title">Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=1200">
+<h3>Video Production</h3>
+<p>Commercials, brand films, events and cinematic storytelling.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=1200">
+<h3>Photography</h3>
+<p>Professional photography for brands, products and campaigns.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200">
+<h3>Social Media Management</h3>
+<p>Strategy, content planning and audience growth.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?q=80&w=1200">
+<h3>Reels & Short Form Content</h3>
+<p>High-performing content for Instagram, TikTok and YouTube.</p>
+</div>
+
+</div>
+</section>
+
+<section id="portfolio">
+<h2 class="section-title">Featured Projects</h2>
+
+<div class="portfolio">
+
+<!-- REPLACE WITH YOUR REAL WORK -->
+
+<div>
+<img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?q=80&w=1200">
+<h3>Fashion Campaign</h3>
+</div>
+
+<div>
+<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200">
+<h3>Social Media Growth Project</h3>
+</div>
+
+<div>
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200">
+<h3>Brand Storytelling Film</h3>
+</div>
+
+</div>
+</section>
+
+<section id="team">
+<h2 class="section-title">Founders</h2>
+
+<div class="team">
+
+<div class="member">
+
+<!-- ADD YOUR PHOTO -->
+<img src="https://via.placeholder.com/220">
+
+<h3>Nakul virmani</h3>
+<p>Co-Founder</p>
+
+</div>
+
+<div class="member">
+
+<!-- ADD NAKUL PHOTO -->
+<img src="https://via.placeholder.com/220">
+
+<h3>Jatin Kumar</h3>
+<p>Co-Founder</p>
+
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<h2 class="section-title">Contact Us</h2>
+
+<div class="contact">
+
+<!-- REPLACE WITH YOUR DETAILS -->
+
+<p>📧 Email: hello@ybehouse.com</p>
+
+<p>📱 Phone: +91 8010118379</p>
+
+<p>📍 Ghaziabd ,India</p>
+
+<p>📸 Instagram: @ybehouseproduction</p>
+
+<p>💼 Available for Brand Collaborations & Commercial Projects</p>
+
+</div>
+</section>
+
+<footer>
+<p>© 2026 YBEHOUSE Production. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
